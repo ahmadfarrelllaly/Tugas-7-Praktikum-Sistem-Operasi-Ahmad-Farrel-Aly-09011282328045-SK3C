@@ -15,5 +15,7 @@ Merupakan suatu protokol jaringan yang memungkinkan pengguna untuk mengakses dan
 ###
 4. Konfigurasi firewall sebelum menghubungkan ke server dengan *sudo ufw allow ssh* lalu *sudo ufw enable* dan periksa apakah firewall sudah berjalan dengan *sudo ufw status* ![5](./Tugas7/20.png)
 ###
-5. Lakukan/konfigurasi juga pada Linux Mint sebelum dihubungkan.
-6. Lalu hubungkan server dengan command *ssh user@ipaddress* ![6](./Tugas7/13.png) ![7](./Tugas7/22.png)
+4. Kemudian di pengaturan VirtualBox pada bagian network, gunakan bridged adapter dan pilih Wi-Fi card yang ada ![6](./Tugas7/18.png)
+###
+6. Lakukan/konfigurasi juga pada Linux Mint sebelum dihubungkan.
+7. Lalu hubungkan server dengan command *ssh user@ipaddress* ![6](./Tugas7/13.png) ![7](./Tugas7/22.png)
